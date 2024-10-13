@@ -17,20 +17,20 @@ ManagerSaid("Joynal" , goodMorning )
 
 //! Calculation
 
-// function calculate (number1,number2, callback){
-//     callback(number1,number2)
-// }
+function calculate (number1,number2, callback){
+    callback(number1,number2)
+}
 
-// let addition = function(num,num2){
-//     result = num+num2
-//     console.log("My Addition Result is ", result)
-//     return result
-// }
+let addition = function(num,num2){
+    result = num+num2
+    console.log("My Addition Result is ", result)
+    return result
+}
 
-// calculate(20, 10 , addition )
+calculate(20, 10 , addition )
 
 
-//! odd or even checker 
+// ! odd or even checker 
 
 function oddOrEvenNumber (number, callback){
     return callback(number)
@@ -43,3 +43,11 @@ let inputNumber = function(digite){
 
 oddOrEvenNumber(23 ,inputNumber )
 
+
+// const user = {id: 12, userName: 'Mamun', age : 24, isMale: true}
+// console.log('user details', user)
+
+// const makeString = JSON.stringify(user)
+// console.log(makeString)
+// const makeObject = JSON.parse(makeString)
+// console.log("convert inti JSON ", makeObject)
